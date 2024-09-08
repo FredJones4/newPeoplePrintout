@@ -2,7 +2,7 @@ import json
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.patches as patches
-
+import time
 # Define paper size in centimeters (landscape mode)
 PAGE_WIDTH = 29.7  # A4 landscape mode width
 PAGE_HEIGHT = 21  # A4 landscape mode height
@@ -107,6 +107,8 @@ if __name__ == "__main__":
     persons = load_persons_from_json(persons_file)
 
     # Create the PDF with name cards using 2 rows and 2 columns layout
-    create_printable_page(persons, "name_cards_with_larger_first_name.pdf")
+    currTime = time.time()
+    file_name = "name_cards_"+ currTime.__str__() + ".pdf"
+    create_printable_page(persons,file_name=file_name )
 
     print(f"PDF created with names from '{persons_file}', with larger first name text and 'BYU 19th Ward' text in the top left corner.")
