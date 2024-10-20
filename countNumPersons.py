@@ -1,5 +1,8 @@
 import json
-
+"""
+Counts the number of items in the given json. 
+Note that the complete json file path needs to be added to the variable json_file_path.
+"""
 # Path to your JSON file
 json_file_path = 'C:\\Users\\Owner\\PycharmProjects\\newPeoplePrintout\\persons.json'
 
