@@ -1,7 +1,7 @@
 
 # Name to Nametags
 
-This project automates the creation of name tags by converting names listed in a JSON file into a PDF format suitable for printing. Specifically, it is designed to work with pre-cut papers following Sister Parkin's format requirements.
+This project automates the creation of name tags by converting names listed in a JSON file into a PDF format suitable for printing. Specifically, it is designed to work with pre-cut papers following our pdf format requirements. Alternative pdf printouts are given in '''alternate_printout_1''' and '''alternate_printout_2'''.
 
 ## Features
 
@@ -29,8 +29,8 @@ pip install PyPDF2 reportlab
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/nametotags.git
-cd nametotags
+git clone https://github.com/FredJones4/newPeoplePrintout.git
+cd newPeoplePrintout
 ```
 
 ### Setup
@@ -65,7 +65,7 @@ We use [Git](https://git-scm.com/) for version control. For the versions availab
 
 ## Authors
 
-- **Your Name** - *Initial work* - [YourUsername](https://github.com/yourusername)
+- **Christian Hales** - *Initial work* - [FredJones4](https://github.com/FredJones4)
 
 ## License
 
